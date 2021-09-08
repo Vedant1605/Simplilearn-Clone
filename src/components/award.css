@@ -1,0 +1,9 @@
+.awards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.awaCont{
+    margin-top: 2em;
+    text-align: center;
+}

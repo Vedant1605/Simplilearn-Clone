@@ -1,0 +1,38 @@
+.right-clm {
+  margin: 1em;
+  float: right;
+  color: white;
+  text-align: center;
+}
+.left-clm {
+  text-align: center;
+  margin: 1em 0 0 0;
+  float: left;
+  color: #ffffff;
+  /* position: relative;
+    left: 0; */
+}
+.left-clm ul {
+  list-style: none;
+}
+.video {
+  border: 3px solid white;
+  border-radius: 5px;
+}
+.banner {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  margin-top: 1em;
+  height: inherit;
+  background: #8b5338
+    url(https://www.simplilearn.com/ice9/assets/home/banner_v1.jpg) no-repeat;
+  color: black;
+  background-size: cover;
+}
+/* .container{
+    margin-top: 1em;
+    background: #8B5338 url(https://www.simplilearn.com/ice9/assets/home/banner_v1.jpg) no-repeat;
+    color: black;
+    background-size: cover;
+} */
