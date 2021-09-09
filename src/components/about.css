@@ -30,9 +30,6 @@
   color: black;
   background-size: cover;
 }
-/* .container{
-    margin-top: 1em;
-    background: #8B5338 url(https://www.simplilearn.com/ice9/assets/home/banner_v1.jpg) no-repeat;
-    color: black;
-    background-size: cover;
-} */
+.container{
+    margin-top: 6em;
+}

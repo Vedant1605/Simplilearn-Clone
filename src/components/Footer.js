@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Facebook, Twitter, LinkedIn, YouTube } from '@material-ui/icons';
 const Footer = () => {
   return (
     <div>
@@ -12,10 +13,10 @@ const Footer = () => {
                 <p>Building Careers of Tomorrow</p>
                 <div className="Media-logo">
                   <div className="media-icons"  >
-                    <a href="#"><i className="fab fa-facebook-f"></i></a>
-                    <a href="#"><i className="fab fa-twitter"></i></a>
-                    <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i className="fab fa-youtube"></i></a>
+                  <p><Facebook/></p>
+                  <p><Twitter /></p>
+                  <p><LinkedIn /></p>
+                  <p><YouTube /></p>
                   </div>
                 </div>
               </div>
@@ -24,26 +25,26 @@ const Footer = () => {
             </div>
             <div className="middle box">
               <div className="topic">SimpliLearn</div>
-              <div><a href="#">About</a></div>
-              <div><a href="#">Careers</a></div>
-              <div><a href="#">Placement Support</a></div>
-              <div><a href="#">SimpliLearn Blog</a></div>
-              <div><a href="#">Success Stories</a></div>
-              <div><a href="#">For Teams</a></div>
-              <div><a href="#">Data Science Programs for Teams</a></div>
-              <div><a href="#">Product and Technology Programs for Teams</a></div>
-              <div><a href="#">Management Programs for Teams</a></div>
-              <div><a href="#">Online Power Learning</a></div>
-              <div><a href="#">Xchange</a></div>
-              <div><a href="#">BaseCamp</a></div>
-              <div><a href="#">For Buisiness</a></div>
-              <div><a href="#">Short Videos</a></div>
+              <div><p>About</p></div>
+              <div><p>Careers</p></div>
+              <div><p>Placement Support</p></div>
+              <div><p>SimpliLearn Blog</p></div>
+              <div><p>Success Stories</p></div>
+              <div><p>For Teams</p></div>
+              <div><p>Data Science Programs for Teams</p></div>
+              <div><p>Product and Technology Programs for Teams</p></div>
+              <div><p>Management Programs for Teams</p></div>
+              <div><p>Online Power Learning</p></div>
+              <div><p>Xchange</p></div>
+              <div><p>BaseCamp</p></div>
+              <div><p>For Buisiness</p></div>
+              <div><p>Short Videos</p></div>
             </div>
             <div className="right box">
               <div className="topic">Support</div>
-              <div><a href="#">Contact</a></div>
-              <div><a href="#">Terms & Conditions</a></div>
-              <div><a href="#">Privacy Policy</a></div>
+              <div><p>Contact</p></div>
+              <div><p>Terms & Conditions</p></div>
+              <div><p>Privacy Policy</p></div>
             </div>
             <div className="right box">
               <div><button className="btn btn-outline-light">Get the android app</button></div>

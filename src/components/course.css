@@ -1,16 +1,14 @@
-.courses{
-    display: flex;
 
-}
-.cr{
+.cr h3{
     margin-top: 1.5em;
-    margin-left: 4em;
+    margin-left: 2em;
+    
+}
+.cr p{
+    margin-left: 3.5em;
     
 }
 @media (max-width:786px) {
-    .courses{
-        flex-direction: column;
-    }
     .cr{
         margin: 1em;
         margin-top: 1.5em;
